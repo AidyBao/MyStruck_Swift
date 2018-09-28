@@ -15,7 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.backgroundColor = UIColor.white
+        
+        ZXNavBarConfig.active()
+        
+        ZXTabbarConfig.active()
+        
+        ZXRootViewController.reload()
+        
+        ZXRootViewController.appWindow()?.rootViewController = ZXRootViewController.zx_tabbarVC()
+        
+        self.window?.makeKeyAndVisible()
         return true
     }
 

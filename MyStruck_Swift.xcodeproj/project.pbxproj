@@ -12,6 +12,18 @@
 		7A70E2A6215E236900C14F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E2A4215E236900C14F0A /* Main.storyboard */; };
 		7A70E2A8215E236A00C14F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E2A7215E236A00C14F0A /* Assets.xcassets */; };
 		7A70E2AB215E236A00C14F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E2A9215E236A00C14F0A /* LaunchScreen.storyboard */; };
+		7A70E2BE215E243100C14F0A /* TestVC4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E2B2215E242F00C14F0A /* TestVC4.xib */; };
+		7A70E2BF215E243100C14F0A /* UITabBarController+ZX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2B3215E242F00C14F0A /* UITabBarController+ZX.swift */; };
+		7A70E2C0215E243100C14F0A /* TestVC3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E2B4215E242F00C14F0A /* TestVC3.xib */; };
+		7A70E2C1215E243100C14F0A /* ZXRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2B5215E243000C14F0A /* ZXRootViewController.swift */; };
+		7A70E2C2215E243100C14F0A /* TestVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2B6215E243000C14F0A /* TestVC3.swift */; };
+		7A70E2C3215E243100C14F0A /* TestVC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E2B7215E243000C14F0A /* TestVC2.xib */; };
+		7A70E2C4215E243100C14F0A /* TestVC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2B8215E243000C14F0A /* TestVC4.swift */; };
+		7A70E2C5215E243100C14F0A /* TestVC1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E2B9215E243000C14F0A /* TestVC1.xib */; };
+		7A70E2C6215E243100C14F0A /* TestVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2BA215E243000C14F0A /* TestVC1.swift */; };
+		7A70E2C7215E243100C14F0A /* ZXTabbarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2BB215E243100C14F0A /* ZXTabbarConfig.swift */; };
+		7A70E2C8215E243100C14F0A /* ZXNavBarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2BC215E243100C14F0A /* ZXNavBarConfig.swift */; };
+		7A70E2C9215E243100C14F0A /* TestVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2BD215E243100C14F0A /* TestVC2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		7A70E2A7215E236A00C14F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A70E2AA215E236A00C14F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A70E2AC215E236A00C14F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A70E2B2215E242F00C14F0A /* TestVC4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC4.xib; sourceTree = "<group>"; };
+		7A70E2B3215E242F00C14F0A /* UITabBarController+ZX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+ZX.swift"; sourceTree = "<group>"; };
+		7A70E2B4215E242F00C14F0A /* TestVC3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC3.xib; sourceTree = "<group>"; };
+		7A70E2B5215E243000C14F0A /* ZXRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXRootViewController.swift; sourceTree = "<group>"; };
+		7A70E2B6215E243000C14F0A /* TestVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC3.swift; sourceTree = "<group>"; };
+		7A70E2B7215E243000C14F0A /* TestVC2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC2.xib; sourceTree = "<group>"; };
+		7A70E2B8215E243000C14F0A /* TestVC4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC4.swift; sourceTree = "<group>"; };
+		7A70E2B9215E243000C14F0A /* TestVC1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC1.xib; sourceTree = "<group>"; };
+		7A70E2BA215E243000C14F0A /* TestVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC1.swift; sourceTree = "<group>"; };
+		7A70E2BB215E243100C14F0A /* ZXTabbarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXTabbarConfig.swift; sourceTree = "<group>"; };
+		7A70E2BC215E243100C14F0A /* ZXNavBarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXNavBarConfig.swift; sourceTree = "<group>"; };
+		7A70E2BD215E243100C14F0A /* TestVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,18 @@
 			children = (
 				7A70E2A0215E236800C14F0A /* AppDelegate.swift */,
 				7A70E2A2215E236800C14F0A /* ViewController.swift */,
+				7A70E2BA215E243000C14F0A /* TestVC1.swift */,
+				7A70E2B9215E243000C14F0A /* TestVC1.xib */,
+				7A70E2BD215E243100C14F0A /* TestVC2.swift */,
+				7A70E2B7215E243000C14F0A /* TestVC2.xib */,
+				7A70E2B6215E243000C14F0A /* TestVC3.swift */,
+				7A70E2B4215E242F00C14F0A /* TestVC3.xib */,
+				7A70E2B8215E243000C14F0A /* TestVC4.swift */,
+				7A70E2B2215E242F00C14F0A /* TestVC4.xib */,
+				7A70E2B3215E242F00C14F0A /* UITabBarController+ZX.swift */,
+				7A70E2BC215E243100C14F0A /* ZXNavBarConfig.swift */,
+				7A70E2B5215E243000C14F0A /* ZXRootViewController.swift */,
+				7A70E2BB215E243100C14F0A /* ZXTabbarConfig.swift */,
 				7A70E2A4215E236900C14F0A /* Main.storyboard */,
 				7A70E2A7215E236A00C14F0A /* Assets.xcassets */,
 				7A70E2A9215E236A00C14F0A /* LaunchScreen.storyboard */,
@@ -123,8 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A70E2AB215E236A00C14F0A /* LaunchScreen.storyboard in Resources */,
+				7A70E2C5215E243100C14F0A /* TestVC1.xib in Resources */,
+				7A70E2C0215E243100C14F0A /* TestVC3.xib in Resources */,
+				7A70E2BE215E243100C14F0A /* TestVC4.xib in Resources */,
 				7A70E2A8215E236A00C14F0A /* Assets.xcassets in Resources */,
 				7A70E2A6215E236900C14F0A /* Main.storyboard in Resources */,
+				7A70E2C3215E243100C14F0A /* TestVC2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +177,14 @@
 			files = (
 				7A70E2A3215E236800C14F0A /* ViewController.swift in Sources */,
 				7A70E2A1215E236800C14F0A /* AppDelegate.swift in Sources */,
+				7A70E2C6215E243100C14F0A /* TestVC1.swift in Sources */,
+				7A70E2C7215E243100C14F0A /* ZXTabbarConfig.swift in Sources */,
+				7A70E2C8215E243100C14F0A /* ZXNavBarConfig.swift in Sources */,
+				7A70E2C1215E243100C14F0A /* ZXRootViewController.swift in Sources */,
+				7A70E2BF215E243100C14F0A /* UITabBarController+ZX.swift in Sources */,
+				7A70E2C2215E243100C14F0A /* TestVC3.swift in Sources */,
+				7A70E2C4215E243100C14F0A /* TestVC4.swift in Sources */,
+				7A70E2C9215E243100C14F0A /* TestVC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
