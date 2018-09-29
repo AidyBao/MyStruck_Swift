@@ -24,6 +24,8 @@
 		7A70E2C7215E243100C14F0A /* ZXTabbarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2BB215E243100C14F0A /* ZXTabbarConfig.swift */; };
 		7A70E2C8215E243100C14F0A /* ZXNavBarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2BC215E243100C14F0A /* ZXNavBarConfig.swift */; };
 		7A70E2C9215E243100C14F0A /* TestVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2BD215E243100C14F0A /* TestVC2.swift */; };
+		7ADAB88B215F63D40033EFAD /* MyCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAB88A215F63D40033EFAD /* MyCache.swift */; };
+		7ADAB88D215F78F00033EFAD /* MyDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAB88C215F78F00033EFAD /* MyDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		7A70E2BB215E243100C14F0A /* ZXTabbarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXTabbarConfig.swift; sourceTree = "<group>"; };
 		7A70E2BC215E243100C14F0A /* ZXNavBarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXNavBarConfig.swift; sourceTree = "<group>"; };
 		7A70E2BD215E243100C14F0A /* TestVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC2.swift; sourceTree = "<group>"; };
+		7ADAB88A215F63D40033EFAD /* MyCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCache.swift; sourceTree = "<group>"; };
+		7ADAB88C215F78F00033EFAD /* MyDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,26 @@
 				7A70E2A7215E236A00C14F0A /* Assets.xcassets */,
 				7A70E2A9215E236A00C14F0A /* LaunchScreen.storyboard */,
 				7A70E2AC215E236A00C14F0A /* Info.plist */,
+				7ADAB888215F63B30033EFAD /* MyStruck */,
 			);
 			path = MyStruck_Swift;
+			sourceTree = "<group>";
+		};
+		7ADAB888215F63B30033EFAD /* MyStruck */ = {
+			isa = PBXGroup;
+			children = (
+				7ADAB889215F63B30033EFAD /* MyTools */,
+			);
+			path = MyStruck;
+			sourceTree = "<group>";
+		};
+		7ADAB889215F63B30033EFAD /* MyTools */ = {
+			isa = PBXGroup;
+			children = (
+				7ADAB88A215F63D40033EFAD /* MyCache.swift */,
+				7ADAB88C215F78F00033EFAD /* MyDate.swift */,
+			);
+			path = MyTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,10 +200,12 @@
 				7A70E2A3215E236800C14F0A /* ViewController.swift in Sources */,
 				7A70E2A1215E236800C14F0A /* AppDelegate.swift in Sources */,
 				7A70E2C6215E243100C14F0A /* TestVC1.swift in Sources */,
+				7ADAB88D215F78F00033EFAD /* MyDate.swift in Sources */,
 				7A70E2C7215E243100C14F0A /* ZXTabbarConfig.swift in Sources */,
 				7A70E2C8215E243100C14F0A /* ZXNavBarConfig.swift in Sources */,
 				7A70E2C1215E243100C14F0A /* ZXRootViewController.swift in Sources */,
 				7A70E2BF215E243100C14F0A /* UITabBarController+ZX.swift in Sources */,
+				7ADAB88B215F63D40033EFAD /* MyCache.swift in Sources */,
 				7A70E2C2215E243100C14F0A /* TestVC3.swift in Sources */,
 				7A70E2C4215E243100C14F0A /* TestVC4.swift in Sources */,
 				7A70E2C9215E243100C14F0A /* TestVC2.swift in Sources */,
