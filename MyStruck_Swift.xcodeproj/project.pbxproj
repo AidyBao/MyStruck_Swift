@@ -26,6 +26,12 @@
 		7A70E2C9215E243100C14F0A /* TestVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2BD215E243100C14F0A /* TestVC2.swift */; };
 		7ADAB88B215F63D40033EFAD /* MyCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAB88A215F63D40033EFAD /* MyCache.swift */; };
 		7ADAB88D215F78F00033EFAD /* MyDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADAB88C215F78F00033EFAD /* MyDate.swift */; };
+		7AFEB78121606AA20034D390 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFEB78021606AA20034D390 /* MyButton.swift */; };
+		7AFEB78321606AF30034D390 /* MyLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFEB78221606AF30034D390 /* MyLocation.swift */; };
+		7AFEB78521606C520034D390 /* MyImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFEB78421606C520034D390 /* MyImagePicker.swift */; };
+		7AFEB787216073AC0034D390 /* MyAudioToolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFEB786216073AC0034D390 /* MyAudioToolBox.swift */; };
+		7AFEB789216073D80034D390 /* MyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFEB788216073D80034D390 /* MyAlert.swift */; };
+		7AFEB78C2160745D0034D390 /* UIViewController+My.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFEB78B2160745D0034D390 /* UIViewController+My.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +56,12 @@
 		7A70E2BD215E243100C14F0A /* TestVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC2.swift; sourceTree = "<group>"; };
 		7ADAB88A215F63D40033EFAD /* MyCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCache.swift; sourceTree = "<group>"; };
 		7ADAB88C215F78F00033EFAD /* MyDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDate.swift; sourceTree = "<group>"; };
+		7AFEB78021606AA20034D390 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		7AFEB78221606AF30034D390 /* MyLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocation.swift; sourceTree = "<group>"; };
+		7AFEB78421606C520034D390 /* MyImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImagePicker.swift; sourceTree = "<group>"; };
+		7AFEB786216073AC0034D390 /* MyAudioToolBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAudioToolBox.swift; sourceTree = "<group>"; };
+		7AFEB788216073D80034D390 /* MyAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlert.swift; sourceTree = "<group>"; };
+		7AFEB78B2160745D0034D390 /* UIViewController+My.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+My.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +120,7 @@
 		7ADAB888215F63B30033EFAD /* MyStruck */ = {
 			isa = PBXGroup;
 			children = (
+				7AFEB78A216074390034D390 /* MyExtension */,
 				7ADAB889215F63B30033EFAD /* MyTools */,
 			);
 			path = MyStruck;
@@ -118,8 +131,21 @@
 			children = (
 				7ADAB88A215F63D40033EFAD /* MyCache.swift */,
 				7ADAB88C215F78F00033EFAD /* MyDate.swift */,
+				7AFEB78021606AA20034D390 /* MyButton.swift */,
+				7AFEB78221606AF30034D390 /* MyLocation.swift */,
+				7AFEB78421606C520034D390 /* MyImagePicker.swift */,
+				7AFEB786216073AC0034D390 /* MyAudioToolBox.swift */,
+				7AFEB788216073D80034D390 /* MyAlert.swift */,
 			);
 			path = MyTools;
+			sourceTree = "<group>";
+		};
+		7AFEB78A216074390034D390 /* MyExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7AFEB78B2160745D0034D390 /* UIViewController+My.swift */,
+			);
+			path = MyExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,17 +223,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFEB789216073D80034D390 /* MyAlert.swift in Sources */,
 				7A70E2A3215E236800C14F0A /* ViewController.swift in Sources */,
 				7A70E2A1215E236800C14F0A /* AppDelegate.swift in Sources */,
 				7A70E2C6215E243100C14F0A /* TestVC1.swift in Sources */,
+				7AFEB78C2160745D0034D390 /* UIViewController+My.swift in Sources */,
+				7AFEB78121606AA20034D390 /* MyButton.swift in Sources */,
 				7ADAB88D215F78F00033EFAD /* MyDate.swift in Sources */,
 				7A70E2C7215E243100C14F0A /* ZXTabbarConfig.swift in Sources */,
 				7A70E2C8215E243100C14F0A /* ZXNavBarConfig.swift in Sources */,
 				7A70E2C1215E243100C14F0A /* ZXRootViewController.swift in Sources */,
+				7AFEB78321606AF30034D390 /* MyLocation.swift in Sources */,
 				7A70E2BF215E243100C14F0A /* UITabBarController+ZX.swift in Sources */,
 				7ADAB88B215F63D40033EFAD /* MyCache.swift in Sources */,
 				7A70E2C2215E243100C14F0A /* TestVC3.swift in Sources */,
+				7AFEB78521606C520034D390 /* MyImagePicker.swift in Sources */,
 				7A70E2C4215E243100C14F0A /* TestVC4.swift in Sources */,
+				7AFEB787216073AC0034D390 /* MyAudioToolBox.swift in Sources */,
 				7A70E2C9215E243100C14F0A /* TestVC2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4384M9Z5J;
 				INFOPLIST_FILE = MyStruck_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,6 +408,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4384M9Z5J;
 				INFOPLIST_FILE = MyStruck_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
