@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58CBB326B983C1798398CF4E /* Pods_MyStruck_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8E37ADF142AF90EF87EA68 /* Pods_MyStruck_Swift.framework */; };
+		7A11F498216B291300894A51 /* MyNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F497216B291300894A51 /* MyNetwork.swift */; };
+		7A11F49B216B2EBA00894A51 /* MyConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F49A216B2EBA00894A51 /* MyConst.swift */; };
+		7A11F4A0216B31B000894A51 /* ZXAPIDataparse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F49C216B31B000894A51 /* ZXAPIDataparse.swift */; };
+		7A11F4A1216B31B000894A51 /* ZXAPISign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F49D216B31B000894A51 /* ZXAPISign.swift */; };
+		7A11F4A2216B31B000894A51 /* ZXAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F49E216B31B000894A51 /* ZXAPI.swift */; };
+		7A11F4A3216B31B000894A51 /* ZXBase64Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F49F216B31B000894A51 /* ZXBase64Utils.swift */; };
+		7A11F4B0216B31CA00894A51 /* Bundle+ZX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F4A4216B31CA00894A51 /* Bundle+ZX.swift */; };
+		7A11F4B1216B31CA00894A51 /* CGSize+ZX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F4A5216B31CA00894A51 /* CGSize+ZX.swift */; };
+		7A11F4B2216B31CA00894A51 /* UITabBarController+ZX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F4A6216B31CA00894A51 /* UITabBarController+ZX.swift */; };
+		7A11F4B3216B31CA00894A51 /* NSAttributedString+ZX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F4A7216B31CA00894A51 /* NSAttributedString+ZX.swift */; };
+		7A11F4B4216B31CA00894A51 /* ReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F4A8216B31CA00894A51 /* ReuseableView.swift */; };
+		7A11F4B5216B31CA00894A51 /* NSObject+ZX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F4A9216B31CA00894A51 /* NSObject+ZX.swift */; };
+		7A11F4B6216B31CA00894A51 /* String+ZX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F4AA216B31CA00894A51 /* String+ZX.swift */; };
+		7A11F4B7216B31CA00894A51 /* UIViewController+ZXNavControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F4AB216B31CA00894A51 /* UIViewController+ZXNavControl.swift */; };
+		7A11F4B8216B31CA00894A51 /* UIDevice+ZX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F4AC216B31CA00894A51 /* UIDevice+ZX.swift */; };
+		7A11F4BB216B31CA00894A51 /* Timer+ZX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F4AF216B31CA00894A51 /* Timer+ZX.swift */; };
+		7A11F4BD216B323100894A51 /* ZXUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A11F4BC216B323100894A51 /* ZXUserModel.swift */; };
 		7A70E2A1215E236800C14F0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2A0215E236800C14F0A /* AppDelegate.swift */; };
 		7A70E2A3215E236800C14F0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2A2215E236800C14F0A /* ViewController.swift */; };
 		7A70E2A6215E236900C14F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E2A4215E236900C14F0A /* Main.storyboard */; };
 		7A70E2A8215E236A00C14F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E2A7215E236A00C14F0A /* Assets.xcassets */; };
 		7A70E2AB215E236A00C14F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E2A9215E236A00C14F0A /* LaunchScreen.storyboard */; };
 		7A70E2BE215E243100C14F0A /* TestVC4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E2B2215E242F00C14F0A /* TestVC4.xib */; };
-		7A70E2BF215E243100C14F0A /* UITabBarController+ZX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2B3215E242F00C14F0A /* UITabBarController+ZX.swift */; };
 		7A70E2C0215E243100C14F0A /* TestVC3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E2B4215E242F00C14F0A /* TestVC3.xib */; };
 		7A70E2C1215E243100C14F0A /* ZXRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2B5215E243000C14F0A /* ZXRootViewController.swift */; };
 		7A70E2C2215E243100C14F0A /* TestVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E2B6215E243000C14F0A /* TestVC3.swift */; };
@@ -35,6 +52,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		128F05421C23C27076B57DDB /* Pods-MyStruck_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyStruck_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyStruck_Swift/Pods-MyStruck_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		1A6EDE470E8E30407CCD74BE /* Pods-MyStruck_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyStruck_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyStruck_Swift/Pods-MyStruck_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		7A11F497216B291300894A51 /* MyNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetwork.swift; sourceTree = "<group>"; };
+		7A11F49A216B2EBA00894A51 /* MyConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConst.swift; sourceTree = "<group>"; };
+		7A11F49C216B31B000894A51 /* ZXAPIDataparse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXAPIDataparse.swift; sourceTree = "<group>"; };
+		7A11F49D216B31B000894A51 /* ZXAPISign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXAPISign.swift; sourceTree = "<group>"; };
+		7A11F49E216B31B000894A51 /* ZXAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXAPI.swift; sourceTree = "<group>"; };
+		7A11F49F216B31B000894A51 /* ZXBase64Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXBase64Utils.swift; sourceTree = "<group>"; };
+		7A11F4A4216B31CA00894A51 /* Bundle+ZX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+ZX.swift"; sourceTree = "<group>"; };
+		7A11F4A5216B31CA00894A51 /* CGSize+ZX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGSize+ZX.swift"; sourceTree = "<group>"; };
+		7A11F4A6216B31CA00894A51 /* UITabBarController+ZX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+ZX.swift"; sourceTree = "<group>"; };
+		7A11F4A7216B31CA00894A51 /* NSAttributedString+ZX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+ZX.swift"; sourceTree = "<group>"; };
+		7A11F4A8216B31CA00894A51 /* ReuseableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseableView.swift; sourceTree = "<group>"; };
+		7A11F4A9216B31CA00894A51 /* NSObject+ZX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ZX.swift"; sourceTree = "<group>"; };
+		7A11F4AA216B31CA00894A51 /* String+ZX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ZX.swift"; sourceTree = "<group>"; };
+		7A11F4AB216B31CA00894A51 /* UIViewController+ZXNavControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ZXNavControl.swift"; sourceTree = "<group>"; };
+		7A11F4AC216B31CA00894A51 /* UIDevice+ZX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+ZX.swift"; sourceTree = "<group>"; };
+		7A11F4AF216B31CA00894A51 /* Timer+ZX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Timer+ZX.swift"; sourceTree = "<group>"; };
+		7A11F4BC216B323100894A51 /* ZXUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXUserModel.swift; sourceTree = "<group>"; };
+		7A11F4BE216B44EA00894A51 /* MyStruct_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyStruct_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		7A70E29D215E236800C14F0A /* MyStruck_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStruck_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A70E2A0215E236800C14F0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A70E2A2215E236800C14F0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +80,6 @@
 		7A70E2AA215E236A00C14F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A70E2AC215E236A00C14F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A70E2B2215E242F00C14F0A /* TestVC4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC4.xib; sourceTree = "<group>"; };
-		7A70E2B3215E242F00C14F0A /* UITabBarController+ZX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+ZX.swift"; sourceTree = "<group>"; };
 		7A70E2B4215E242F00C14F0A /* TestVC3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC3.xib; sourceTree = "<group>"; };
 		7A70E2B5215E243000C14F0A /* ZXRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXRootViewController.swift; sourceTree = "<group>"; };
 		7A70E2B6215E243000C14F0A /* TestVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC3.swift; sourceTree = "<group>"; };
@@ -62,6 +98,7 @@
 		7AFEB786216073AC0034D390 /* MyAudioToolBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAudioToolBox.swift; sourceTree = "<group>"; };
 		7AFEB788216073D80034D390 /* MyAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlert.swift; sourceTree = "<group>"; };
 		7AFEB78B2160745D0034D390 /* UIViewController+My.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+My.swift"; sourceTree = "<group>"; };
+		ED8E37ADF142AF90EF87EA68 /* Pods_MyStruck_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyStruck_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,17 +106,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58CBB326B983C1798398CF4E /* Pods_MyStruck_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A11F496216B28B900894A51 /* MyNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				7A11F49E216B31B000894A51 /* ZXAPI.swift */,
+				7A11F49C216B31B000894A51 /* ZXAPIDataparse.swift */,
+				7A11F49D216B31B000894A51 /* ZXAPISign.swift */,
+				7A11F49F216B31B000894A51 /* ZXBase64Utils.swift */,
+				7A11F497216B291300894A51 /* MyNetwork.swift */,
+			);
+			path = MyNetwork;
+			sourceTree = "<group>";
+		};
+		7A11F499216B2EA900894A51 /* MyCommon */ = {
+			isa = PBXGroup;
+			children = (
+				7A11F49A216B2EBA00894A51 /* MyConst.swift */,
+				7A11F4BC216B323100894A51 /* ZXUserModel.swift */,
+			);
+			path = MyCommon;
+			sourceTree = "<group>";
+		};
 		7A70E294215E236800C14F0A = {
 			isa = PBXGroup;
 			children = (
 				7A70E29F215E236800C14F0A /* MyStruck_Swift */,
 				7A70E29E215E236800C14F0A /* Products */,
+				F448A1C8A9E18A8414900D4A /* Pods */,
+				F0E2E8A1D16C13EFDFA150E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +165,6 @@
 				7A70E2B4215E242F00C14F0A /* TestVC3.xib */,
 				7A70E2B8215E243000C14F0A /* TestVC4.swift */,
 				7A70E2B2215E242F00C14F0A /* TestVC4.xib */,
-				7A70E2B3215E242F00C14F0A /* UITabBarController+ZX.swift */,
 				7A70E2BC215E243100C14F0A /* ZXNavBarConfig.swift */,
 				7A70E2B5215E243000C14F0A /* ZXRootViewController.swift */,
 				7A70E2BB215E243100C14F0A /* ZXTabbarConfig.swift */,
@@ -112,6 +172,8 @@
 				7A70E2A7215E236A00C14F0A /* Assets.xcassets */,
 				7A70E2A9215E236A00C14F0A /* LaunchScreen.storyboard */,
 				7A70E2AC215E236A00C14F0A /* Info.plist */,
+				7A11F4BE216B44EA00894A51 /* MyStruct_Swift-Bridging-Header.h */,
+				7A11F499216B2EA900894A51 /* MyCommon */,
 				7ADAB888215F63B30033EFAD /* MyStruck */,
 			);
 			path = MyStruck_Swift;
@@ -120,6 +182,7 @@
 		7ADAB888215F63B30033EFAD /* MyStruck */ = {
 			isa = PBXGroup;
 			children = (
+				7A11F496216B28B900894A51 /* MyNetwork */,
 				7AFEB78A216074390034D390 /* MyExtension */,
 				7ADAB889215F63B30033EFAD /* MyTools */,
 			);
@@ -144,8 +207,35 @@
 			isa = PBXGroup;
 			children = (
 				7AFEB78B2160745D0034D390 /* UIViewController+My.swift */,
+				7A11F4A4216B31CA00894A51 /* Bundle+ZX.swift */,
+				7A11F4A5216B31CA00894A51 /* CGSize+ZX.swift */,
+				7A11F4A7216B31CA00894A51 /* NSAttributedString+ZX.swift */,
+				7A11F4A9216B31CA00894A51 /* NSObject+ZX.swift */,
+				7A11F4A8216B31CA00894A51 /* ReuseableView.swift */,
+				7A11F4AA216B31CA00894A51 /* String+ZX.swift */,
+				7A11F4AF216B31CA00894A51 /* Timer+ZX.swift */,
+				7A11F4AC216B31CA00894A51 /* UIDevice+ZX.swift */,
+				7A11F4A6216B31CA00894A51 /* UITabBarController+ZX.swift */,
+				7A11F4AB216B31CA00894A51 /* UIViewController+ZXNavControl.swift */,
 			);
 			path = MyExtension;
+			sourceTree = "<group>";
+		};
+		F0E2E8A1D16C13EFDFA150E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED8E37ADF142AF90EF87EA68 /* Pods_MyStruck_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F448A1C8A9E18A8414900D4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A6EDE470E8E30407CCD74BE /* Pods-MyStruck_Swift.debug.xcconfig */,
+				128F05421C23C27076B57DDB /* Pods-MyStruck_Swift.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A70E2AF215E236A00C14F0A /* Build configuration list for PBXNativeTarget "MyStruck_Swift" */;
 			buildPhases = (
+				EC70C4E95A0CF2159E17998A /* [CP] Check Pods Manifest.lock */,
 				7A70E299215E236800C14F0A /* Sources */,
 				7A70E29A215E236800C14F0A /* Frameworks */,
 				7A70E29B215E236800C14F0A /* Resources */,
+				9C4E52547E487D4FC43429A7 /* [CP] Embed Pods Frameworks */,
+				5766714C6E8A09CD3BB71282 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,27 +311,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5766714C6E8A09CD3BB71282 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyStruck_Swift/Pods-MyStruck_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C4E52547E487D4FC43429A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyStruck_Swift/Pods-MyStruck_Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JXPhotoBrowser/JXPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyStruck_Swift/Pods-MyStruck_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC70C4E95A0CF2159E17998A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyStruck_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A70E299215E236800C14F0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7AFEB789216073D80034D390 /* MyAlert.swift in Sources */,
+				7A11F49B216B2EBA00894A51 /* MyConst.swift in Sources */,
+				7A11F4B8216B31CA00894A51 /* UIDevice+ZX.swift in Sources */,
+				7A11F4B0216B31CA00894A51 /* Bundle+ZX.swift in Sources */,
 				7A70E2A3215E236800C14F0A /* ViewController.swift in Sources */,
 				7A70E2A1215E236800C14F0A /* AppDelegate.swift in Sources */,
 				7A70E2C6215E243100C14F0A /* TestVC1.swift in Sources */,
 				7AFEB78C2160745D0034D390 /* UIViewController+My.swift in Sources */,
+				7A11F4A3216B31B000894A51 /* ZXBase64Utils.swift in Sources */,
 				7AFEB78121606AA20034D390 /* MyButton.swift in Sources */,
 				7ADAB88D215F78F00033EFAD /* MyDate.swift in Sources */,
+				7A11F4B4216B31CA00894A51 /* ReuseableView.swift in Sources */,
 				7A70E2C7215E243100C14F0A /* ZXTabbarConfig.swift in Sources */,
 				7A70E2C8215E243100C14F0A /* ZXNavBarConfig.swift in Sources */,
+				7A11F4A2216B31B000894A51 /* ZXAPI.swift in Sources */,
+				7A11F4B7216B31CA00894A51 /* UIViewController+ZXNavControl.swift in Sources */,
+				7A11F498216B291300894A51 /* MyNetwork.swift in Sources */,
 				7A70E2C1215E243100C14F0A /* ZXRootViewController.swift in Sources */,
+				7A11F4B3216B31CA00894A51 /* NSAttributedString+ZX.swift in Sources */,
 				7AFEB78321606AF30034D390 /* MyLocation.swift in Sources */,
-				7A70E2BF215E243100C14F0A /* UITabBarController+ZX.swift in Sources */,
+				7A11F4B6216B31CA00894A51 /* String+ZX.swift in Sources */,
+				7A11F4A0216B31B000894A51 /* ZXAPIDataparse.swift in Sources */,
 				7ADAB88B215F63D40033EFAD /* MyCache.swift in Sources */,
 				7A70E2C2215E243100C14F0A /* TestVC3.swift in Sources */,
+				7A11F4BD216B323100894A51 /* ZXUserModel.swift in Sources */,
+				7A11F4BB216B31CA00894A51 /* Timer+ZX.swift in Sources */,
+				7A11F4B1216B31CA00894A51 /* CGSize+ZX.swift in Sources */,
 				7AFEB78521606C520034D390 /* MyImagePicker.swift in Sources */,
 				7A70E2C4215E243100C14F0A /* TestVC4.swift in Sources */,
+				7A11F4B5216B31CA00894A51 /* NSObject+ZX.swift in Sources */,
+				7A11F4B2216B31CA00894A51 /* UITabBarController+ZX.swift in Sources */,
+				7A11F4A1216B31B000894A51 /* ZXAPISign.swift in Sources */,
 				7AFEB787216073AC0034D390 /* MyAudioToolBox.swift in Sources */,
 				7A70E2C9215E243100C14F0A /* TestVC2.swift in Sources */,
 			);
@@ -384,6 +561,7 @@
 		};
 		7A70E2B0215E236A00C14F0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6EDE470E8E30407CCD74BE /* Pods-MyStruck_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -403,6 +581,7 @@
 		};
 		7A70E2B1215E236A00C14F0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128F05421C23C27076B57DDB /* Pods-MyStruck_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

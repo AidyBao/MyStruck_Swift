@@ -1,0 +1,6 @@
+framework module Pods_MyStruck_Swift {
+  umbrella header "Pods-MyStruck_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

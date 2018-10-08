@@ -1,0 +1,41 @@
+PODS:
+  - HandyJSON (4.2.0)
+  - IQKeyboardManagerSwift (6.1.1)
+  - JXPhotoBrowser (1.5.1):
+    - JXPhotoBrowser/Kingfisher (= 1.5.1)
+  - JXPhotoBrowser/Core (1.5.1)
+  - JXPhotoBrowser/Kingfisher (1.5.1):
+    - JXPhotoBrowser/Core
+    - Kingfisher
+  - KeychainSwift (11.0.0)
+  - Kingfisher (4.9.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - SnapKit (4.0.1)
+  - WechatOpenSDK (1.8.2)
+
+DEPENDENCIES:
+  - HandyJSON
+  - IQKeyboardManagerSwift
+  - JXPhotoBrowser (~> 1.5.1)
+  - KeychainSwift
+  - Kingfisher
+  - MBProgressHUD
+  - MJRefresh
+  - SnapKit
+  - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  HandyJSON: 9dfc026c7d7adc1f0f8ba8b181495f0e0763b0f4
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  JXPhotoBrowser: 08d5e234e5742c3561b544d0824969d537d18a47
+  KeychainSwift: bea6bd9f98af7b8d7ca4aa79fe105c00fab532db
+  Kingfisher: 64539b51826b778206daa6ed815d12653caa69dd
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
+
+PODFILE CHECKSUM: 2170799bcdcfc551e30c1249a226ca5f440b29d6
+
+COCOAPODS: 1.4.0

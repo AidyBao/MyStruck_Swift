@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import Kingfisher
+import SnapKit
+import HandyJSON
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
